@@ -2,12 +2,7 @@
     section.title {
         background-blend-mode: multiply;
         background-color: $red-dark;
-        background-size: cover;
-    }
-    .home section.title {
         background-image: url(../images/home-bg.jpg);
-    }
-    .articles section.title {
-        background-image: url(../images/articles-bg.jpg);
+        background-size: cover;
     }
 }

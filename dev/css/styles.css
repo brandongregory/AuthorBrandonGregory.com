@@ -274,11 +274,8 @@ template {
   section.title {
     background-blend-mode: multiply;
     background-color: #B71C1C;
-    background-size: cover; }
-  .home section.title {
-    background-image: url(../images/home-bg.jpg); }
-  .articles section.title {
-    background-image: url(../images/articles-bg.jpg); } }
+    background-image: url(../images/home-bg.jpg);
+    background-size: cover; } }
 
 .btn {
   background: #FFB300;
@@ -288,6 +285,7 @@ template {
   font-family: "Source Sans Pro", sans-serif;
   font-weight: bold;
   padding: .5rem 1rem;
+  text-align: center;
   text-decoration: none; }
   .btn:hover {
     color: #B71C1C; }
@@ -406,6 +404,10 @@ hr {
   background-image: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.5), transparent);
   border: 0;
   height: 1px;
+  margin: 2rem 0; }
+
+h1 {
+  font-size: 2.5rem;
   margin: 2rem 0; }
 
 h2 {
