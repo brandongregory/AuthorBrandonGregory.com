@@ -1,0 +1,9 @@
+destination: ./dev
+exclude: ["scss/"]
+source: ./src
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "main"

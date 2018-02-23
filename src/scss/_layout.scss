@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+}
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 1rem;
+}
+.container-fluid {
+    padding: 0 1rem;
+}
+.container-vertical {
+    padding: 1rem;
+}
+
+@media (min-width: 768px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        position: relative;
+    }
+    section.title {
+        -webkit-align-items: center;
+        align-items: center;
+        display: flex;
+        height: 100vh;
+        position: sticky;
+        top: 0;
+    }
+}

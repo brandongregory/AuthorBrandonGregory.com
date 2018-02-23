@@ -1,0 +1,28 @@
+{% include header.html %}
+
+    {{ page.content }}
+    
+<h2>Professional Articles</h2>
+<div class="article-grid">
+    {% for article in site.data.professionalArticles %}
+        <div class="article">
+            <h3>{{ article.title }}</h3>
+            <p>{{ article.brief }}</p>
+            <p><i>Published {{ article.date }} on {{ article.publisher }}</i></p>
+            <a class="btn" href="{{ article.url }}">Read Now <i class="fas fa-external-link-alt"></i></a>
+        </div>
+    {% endfor %}
+</div>
+<hr>
+<h2>Self-Published Articles</h2>
+<div class="article-grid">
+    {% for article in site.data.selfPublishedArticles %}
+        <div class="article">
+            <h3>{{ article.title }}</h3>
+            <p><i>Published {{ article.date }}</i></p>
+            <a class="btn" href="{{ article.url }}">Read Now <i class="fas fa-external-link-alt"></i></a>
+        </div>
+    {% endfor %}
+</div>
+
+{% include footer.html %}

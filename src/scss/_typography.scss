@@ -1,0 +1,29 @@
+
+hr {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+    border: 0;
+    height: 1px;
+    margin: 2rem 0;
+}
+h2 {
+    font: bold 2rem/1.25 $font-sans-serif;
+}
+@media (min-width: 768px) {
+    .title h1 {
+        font-size: 3rem;
+        font-weight: 300;
+        line-height: 1.25;
+    }
+    .content {
+        font-size: 1.125rem;
+        line-height: 1.66666666;
+        p, ol, ul {
+            max-width: 40em;
+        }
+    }
+}
+@media (min-width: 992px) {
+    .title h1 {
+        font-size: 5rem;
+    }
+}

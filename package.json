@@ -1,0 +1,24 @@
+{
+	"name": "AuthorBrandonGregory.com",
+	"version": "2.0.0",
+	"description": "Brandon Gregory's writing website",
+	"author": {
+		"name": "Brandon Gregory",
+		"email": "brandon.gregory.1981@gmail.com",
+		"url": "brandongregorycreative.com.com"
+	},
+	"license": "ISC",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"files": [
+		"index.js"
+	],
+	"devDependencies": {
+		"gulp": "^3.9.1",
+		"gulp-sass": "^3.1.0",
+		"gulp-clean-css": "^3.9.2",
+		"gulp-htmlmin": "^4.0.0"
+	}
+}

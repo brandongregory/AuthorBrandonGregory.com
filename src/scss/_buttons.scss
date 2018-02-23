@@ -1,0 +1,13 @@
+.btn {
+    background: #FFB300;
+    background-image: linear-gradient(to bottom, #FFB300, #FF8F00);
+    color: #B71C1C;
+    display: block;
+    font-family: $font-sans-serif;
+    font-weight: bold;
+    padding: .5rem 1rem;
+    text-decoration: none;
+    &:hover {
+        color: #B71C1C;
+    }
+}
