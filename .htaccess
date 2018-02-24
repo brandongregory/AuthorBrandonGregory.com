@@ -1,0 +1,4 @@
+# Redirect old PHP pages to new HTML ones
+Redirect /index.php http://authorbrandongregory.com/index.html
+Redirect /articles.php http://authorbrandongregory.com/articles.html
+Redirect /contact.php http://authorbrandongregory.com/contact.html
