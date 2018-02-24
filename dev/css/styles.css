@@ -267,6 +267,13 @@ template {
   font: 1.5rem/1.5 "Merriweather", Georgia, serif; }
 
 @media only screen and (min-width: 1200px) {
+  .article {
+    padding-bottom: 46px;
+    position: relative; }
+    .article .btn {
+      bottom: 0;
+      position: absolute;
+      width: 100%; }
   .article-grid {
     grid-template-columns: 1fr 1fr; } }
 
@@ -274,7 +281,7 @@ template {
   section.title {
     background-blend-mode: multiply;
     background-color: #B71C1C;
-    background-image: url(../images/home-bg.jpg);
+    background-image: url(../images/articles-bg.jpg);
     background-size: cover; } }
 
 .btn {
@@ -365,6 +372,12 @@ header {
   header .nav-trigger {
     display: none; } }
 
+@media (min-width: 768px) and (max-width: 991px) {
+  header ul li {
+    font-size: 12px; }
+  header ul li + li {
+    margin-left: .5rem; } }
+
 @media (min-width: 992px) {
   header .logo {
     font: 2rem/64px "Merriweather", Georgia, serif; } }
@@ -387,7 +400,8 @@ body {
   main {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    position: relative; }
+    position: relative;
+    width: 100%; }
   section.title {
     -webkit-align-items: center;
     align-items: center;

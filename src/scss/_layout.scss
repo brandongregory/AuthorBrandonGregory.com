@@ -18,6 +18,7 @@ body {
         display: grid;
         grid-template-columns: 1fr 2fr;
         position: relative;
+        width: 100%;
     }
     section.title {
         -webkit-align-items: center;

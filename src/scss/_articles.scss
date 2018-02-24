@@ -10,6 +10,15 @@
     }
 }
 @media only screen and (min-width: 1200px) {
+    .article {
+        padding-bottom: 46px;
+        position: relative;
+        .btn {
+            bottom: 0;
+            position: absolute;
+            width: 100%;
+        }
+    }
     .article-grid {
         grid-template-columns: 1fr 1fr;
     }

@@ -85,6 +85,16 @@ header {
         }
     }
 }
+@media (min-width: 768px) and (max-width: 991px) {
+    header ul {
+        li {
+            font-size: 12px;
+        }
+        li + li {
+            margin-left: .5rem;
+        }
+    }
+}
 @media (min-width: 992px) {
     header {
         .logo {
