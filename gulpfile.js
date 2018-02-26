@@ -37,6 +37,11 @@ gulp.task('moveImages', function() {
         .pipe(gulp.dest('dist/images/'))
 });
 
-gulp.task('package', ['minifyHtml', 'minifyCss', 'minifyJs', 'moveImages']);
+gulp.task('moveFonts', function() {
+    return gulp.src('dev/fonts/*')
+        .pipe(gulp.dest('dist/fonts/'))
+});
+
+gulp.task('package', ['minifyHtml', 'minifyCss', 'minifyJs', 'moveImages', 'moveFonts']);
 
 gulp.task('default', ['sass']);
