@@ -45,4 +45,16 @@
   date: "January 18, 2018"
   publisher: "A List Apart"
   url: "https://alistapart.com/article/mental-illness-in-the-web-industry"
+
+- title: "Want to increase your worth as a developer? Learn to impact the business."
+  brief: "A great way to increase your worth to your employer is to learn to impact the business side of things as well as the technical. Our work doesn’t happen in a vacuum anymore. Developers can contribute a lot of unique and valuable insights to the discussion by speaking the language of business, learning to sell, and seeking to improve efficiency."
+  date: "March 14, 2018"
+  publisher: "LogRocket"
+  url: "https://blog.logrocket.com/want-to-increase-your-worth-as-a-developer-learn-to-impact-the-business-f7f78ec23ff5"
+  
+- title: "So You Want to Write an Article?"
+  brief: "Ready to write a professional article? Make sure your submission is the best it can be! ALA editor Brandon Gregory gives some advice on common pitfalls the editorial team sees in article submissions, including advice for picking your topic, writing intros, and adding authority to your ideas."
+  date: "May 10, 2018"
+  publisher: "A List Apart"
+  url: "https://alistapart.com/article/so-you-want-to-write-an-article"
   
