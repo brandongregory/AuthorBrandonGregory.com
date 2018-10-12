@@ -58,3 +58,14 @@
   publisher: "A List Apart"
   url: "https://alistapart.com/article/so-you-want-to-write-an-article"
   
+- title: "Fixing Variable Scope Issues with ECMAScript 6"
+  brief: "Variable scope in JavaScript has always had its problems. ECMAScript 6 has some features to help developers deal with this and give them more control over their variables. Brandon Gregory gives the low-down on these features and when to use them."
+  date: "August 2, 2018"
+  publisher: "A List Apart"
+  url: "https://alistapart.com/article/fixing-variable-scope-issues-with-ecmascript-6"
+  
+- title: "Coding with Clarity: part II"
+  brief: "Coding with clarity sets great developers apart from the rest. Brandon Gregory shares some principles for organizing objects and functions in JavaScript that will improve clarity, making your code easier to read, understand, and extend."
+  date: "August 23, 2018"
+  publisher: "A List Apart"
+  url: "https://alistapart.com/article/coding-with-clarity-part-ii"
